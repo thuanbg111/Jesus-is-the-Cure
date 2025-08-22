@@ -1,0 +1,94 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>About — JESUS IS THE CURE</title>
+<meta name="description" content="JESUS IS THE CURE — We provide physical and spiritual support to individuals and families experiencing homelessness—meals & essentials, outreach and prayer, and connections to community resources.">
+<link rel="stylesheet" href="assets/styles.css"/><link rel="icon" href="image/logo.png">
+
+    <style>
+      html,body{height:100%}
+      body{min-height:100vh;display:flex;flex-direction:column}
+      main{flex:1}
+      img{max-width:100%;height:auto;display:block}
+      figure{margin:0}
+      .map-embed iframe{width:100%;height:360px;border:0}
+      @media (min-width: 900px){ .map-embed iframe{height:420px} }
+      
+    </style>
+    
+</head>
+<body><header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><img src="image/logo.png" alt="JESUS IS THE CURE logo"></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="links" aria-label="Main">
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="governance.html">Governance</a>
+      <a href="contact.html" class="btn btn-primary">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="section container split">
+  <div>
+    <h1>About Us</h1>
+    <p><strong>JESUS IS THE CURE</strong> is organized under California’s Nonprofit Public Benefit Corporation Law for charitable purposes.</p>
+    <p><em>Specific purpose:</em> Provide physical & spiritual needs to the homeless.</p>
+    <ul class="checklist">
+	<li>EIN: 87-0976518</li>
+      <li>Operated exclusively for 501(c)(3) charitable purposes</li>
+      <li>No private inurement or political campaigning</li>
+      <li>Assets dedicated to charitable purposes; proper dissolution clause</li>
+    </ul>
+  </div>
+  <figure><img src="image/about-hero.jpg" alt="Serving our neighbors" loading="lazy"></figure>
+</main>
+
+<section class="section container grid-3">
+  <div class="card"><div class="card-body">
+    <strong>Initial Address</strong>
+    <p class="small">79892 WILLIAM STONE WAY, LA QUINTA, CA 92253</p>
+  </div></div>
+  <div class="card"><div class="card-body">
+    <strong>Initial Agent</strong>
+    <p class="small">CURTIS CLAIRE</p>
+  </div></div>
+  <div class="card"><div class="card-body">
+    <strong>Incorporator</strong>
+    <p class="small">—</p>
+  </div></div>
+</section>
+
+<section class="section container">
+  <div class="card"><div class="card-body">
+    <strong>What We Do</strong>
+    <p class="small">We provide physical and spiritual support to individuals and families experiencing homelessness—meals & essentials, outreach and prayer, and connections to community resources.</p>
+  </div></div>
+</section>
+
+<footer class="footer">
+  <div class="container grid">
+    <div>
+      <img src="images/logo.png" alt="" style="width:160px;height:auto;margin-bottom:.5rem;">
+      <div class="small">© <span id="year"></span> JESUS IS THE CURE</div>
+      <div class="small">A California Nonprofit Public Benefit Corporation — 501(c)(3)</div>
+    </div>
+    <div>
+      <div class="small"><strong>Registered in California</strong><br>Nonprofit Public Benefit Corporation (501(c)(3))</div>
+    </div>
+    <div>
+      <div class="small">
+	  <strong>Phone:</strong> <a href="mailto:+14432260284">+1 443 226 0284</a><br>
+        <strong>Address:</strong> 79892 WILLIAM STONE WAY<br>LA QUINTA, CA 92253<br>
+        <strong>Email:</strong> <a href="mailto:contact@jesusisthecure.online">contact@jesusisthecure.online</a><br>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const b=document.querySelector('.menu-toggle'),l=document.querySelector('.links');
+  if(b&&l){b.addEventListener('click',()=>{const o=l.style.display==='flex';l.style.display=o?'none':'flex';b.setAttribute('aria-expanded',o?'false':'true');});}
+  const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+</script>
+</body></html>
